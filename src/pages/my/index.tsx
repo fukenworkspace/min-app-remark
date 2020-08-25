@@ -7,12 +7,12 @@ import './index.scss'
 interface IProps { }
 
 interface IState { }
-export default class Index extends Component<IProps, IState> {
+export default class MyCenterIndex extends Component<IProps, IState> {
 
   render() {
     return (
       <View className='index'>
-        hello word
+        个人中心
       </View>
     )
   }
